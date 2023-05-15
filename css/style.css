@@ -1,0 +1,318 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Poppins:ital,wght@0,400;0,600;1,500&display=swap");
+body{
+    width: 100%;
+    font-family: 'Manrope';
+    background-color: #f5f5f5;
+}
+nav{
+    background-color: #ffffff;
+    height: 90px;
+    position: absolute;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.05);
+}
+.navbar-toggler{
+    color: #000000;
+}
+.nav-item{
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    font-family: 'Manrope';
+}
+.nav-item :hover{
+    border-bottom: 1px solid #000000;
+}
+.nav-link{
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+    font-family: 'Manrope';
+    margin-left: 20px;
+}
+.btn{
+    background-color: #6FC247;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    border: 1px solid #6FC247;
+    border-radius: 10px;
+    width: 180px;
+    transition: .4s;
+    height: 50px;  
+    margin-left: 80px;
+}
+.btn:hover{
+    background-color: transparent;
+    transform: scale(1.05);
+}
+header{
+    background-color: #ffffff;
+    padding: 40px 250px;
+}
+.write{
+    text-align: center;
+    justify-content: center;
+}
+.write h5{
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 60px;
+    font-family: 'Manrope';
+}
+.write p{
+    font-size: 19.7px;
+    font-family: 'Manrope';
+    font-weight: 500;
+    line-height: 40px;
+    padding: 30px;
+}
+.btn{
+    background-color: #6FC247;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    border: 1px solid #6FC247;
+    border-radius: 10px;
+    width: 180px;
+    transition: .4s;
+    height: 50px;  
+    
+}
+.btn:hover{
+    background-color: transparent;
+    transform: scale(1.05);
+}
+.btnn{
+    background-color: transparent;
+    color: #6FC247;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    border: 1px solid #6FC247;
+    border-radius: 10px;
+    width: 180px;
+    transition: .4s;
+    height: 50px;  
+    margin-left: 20px;
+}
+.btnn:hover{
+    background-color: transparent;
+    transform: scale(1.05);
+}
+.button{
+    margin-top: -20px;
+    padding: 0px 140px;
+}
+main{
+    background-color: #ffffff;
+}
+.picture img{
+    padding: 5px 35px;
+}
+section{
+    background-color: #ffffff;
+    height: 100vh;
+}
+.first{
+    text-align: center;
+    justify-content: center;
+    padding: 40px 250px;
+}
+.first h3{
+    font-size: 25px;
+    font-weight: 800;
+    line-height: 43px;
+    font-family: 'Manrope';
+}
+.first p{
+    font-size: 16px;
+    font-family: 'Manrope';
+    font-weight: 500;
+    line-height: 30px;
+}
+.row{
+    align-items: center;
+    padding: 0px 120px;
+    justify-content: space-evenly;  
+}
+.box1{
+    background-color: #f9f9f9;
+    height: 100px;
+    width: 270px;
+    transition: all ease-in 0.7s;
+}
+.type img{
+    position: absolute;   
+}
+.box2{
+    background-color: #f9f9f9;
+    height: 100px;
+    width: 270px;
+    transition: all ease-in 0.7s;
+}
+.type2{
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.box3{
+    background-color: #f9f9f9;
+    height: 100px;
+    width: 270px;
+    transition: all ease-in 0.7s;
+}
+.type3{
+    position: absolute;
+    margin-top: 10px;
+}
+.box4{
+    background-color: #f9f9f9;
+    height: 100px;
+    width: 270px;
+    transition: all ease-in 0.7s;
+}
+.type4{
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+#part{
+    background-color: #111111;
+    height: 350px;
+}
+.one{
+    padding: 30px 80px;
+}
+.one h3{
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 50px;
+}
+.one p{
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: left;
+}
+.next{
+    display: flex;
+    padding: 0 50px;
+}
+.two{
+    padding: 0 30px;
+}
+.two h4{
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 30px;
+}
+.two p{
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+}
+.three{
+    padding: 0 30px;
+}
+.three h4{
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 30px;
+}
+.three p{
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+}
+.four{
+    padding: 0 30px;
+}
+.four h4{
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 30px;
+}
+.four p{
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+}
+#last{
+    background-color: #ffffff;
+    height: 200vh;
+}
+.sect{
+    display: flex;
+    padding: 50px ;
+}
+.seyi{
+    background-image: url(/images/image.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 800px;
+    position: relative;
+}
+.semi{
+    width: 45%; 
+    padding: 0 70px;
+}
+.texts{
+    text-align: left;
+}
+.texts h3{
+    color: #000000;
+    font-weight: 800;
+    font-size: 26px;
+    line-height: 40px;
+}
+.texts p{
+    color: #000000;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 30px;
+}
+.seun{
+    text-align: left;
+}
+.seun h3{
+    color: #000000;
+    font-weight: 800;
+    font-size: 21px;
+    line-height: 32px;
+}
+.seun p{
+    color: #000000;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 30px;
+}
+.btx{
+    background-color: #6FC247;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 18px;
+    border: 1px solid #6FC247;
+    border-radius: 10px;
+    width: 200px;
+    transition: .4s;
+    height: 50px;  
+    margin-left: 550px;
+}
+.btx:hover{
+    background-color: transparent;
+    transform: scale(1.05);
+}
